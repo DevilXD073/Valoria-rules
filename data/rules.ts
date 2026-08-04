@@ -1,12 +1,3 @@
-from textwrap import dedent
-from pathlib import Path
-
-content = dedent(r'''\
-export interface Rule {
-  title: string;
-  content: string[];
-}
-
 export interface RuleSection {
   id: string;
   title: string;
