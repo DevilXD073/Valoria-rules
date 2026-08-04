@@ -4,7 +4,7 @@ export interface RuleSection {
   rules: Rule[];
 }
 
-export const ruleSections: RuleSection[] = [
+export const ruleSections:
   {
     id: "general",
     title: "🌍 General Rules",
