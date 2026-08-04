@@ -1,4 +1,4 @@
-export interface RuleSection {
+export interface ruleSections {
   id: string;
   title: string;
   icon: string;
@@ -11,7 +11,7 @@ export interface RuleSection {
   }[];
 }
 
-export const rules: RuleSection[] = [
+export const rules: ruleSections [] = [
   {
     id: "general",
     title: "General Rules",
